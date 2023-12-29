@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasir Oi Oi</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>KASIR OI OI</h2>
+
+    <table id="listTabelBarang" style="border: 2px solid black">
+      <thead>
+        <tr>
+          <span></span>
+          <th style="border-bottom: 2px solid black">Kode Barang</th>
+          <th style="border-bottom: 2px solid black">Nama Barang</th>
+          <th style="border-bottom: 2px solid black">Harga Barang</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <table id="input">
+      <tr>
+        <td>Masukkan Kode Barang</td>
+        <td>:</td>
+        <td>
+          <input type="text" class="in" id="kodeBarang" />
+        </td>
+
+        <td>Banyaknya Barang</td>
+        <td>:</td>
+        <td>
+          <input type="text" class="in" id="banyakBarang" />
+        </td>
+
+        <td>
+          <button onclick="tambahBarang()">Tambah</button>
+        </td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
